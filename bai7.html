@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    const a = 25000
+    let b = +prompt("số phút đã sử dụng")
+    if (b <= 50) {
+        alert("số tiền của bạn là: " + (a + (b * 600)))
+    } else {
+        if (b <= 200)
+            alert("số tiền của bạn là: " + (a + 600*50+(b-50)*400))
+        else
+            alert("số tiền của bạn là:" + (a+600*50+150*400+(b-200)*200))
+    }
+</script>
+</body>
+</html>
